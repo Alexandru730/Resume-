@@ -11,7 +11,7 @@ Welcome to the repository for my personal resume website! This website is a show
 
 You can check out the live demo of the website [(https://alex-raduica.netlify.app)](#).
 
-[![Website Demo](demo-screenshot.png)](#)
+[![Website Demo](demo-thumbnail.png)](#)
 
 ## Features
 
