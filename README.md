@@ -6,9 +6,6 @@ Welcome to the repository for my personal resume website! This website is a show
 - [Demo](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
