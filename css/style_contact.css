@@ -87,3 +87,21 @@ textarea:valid ~ label {
 footer {
   margin-top: auto;
 }
+
+@media only screen and (max-width: 768px) {
+  header a {
+    font-size: 12px; /* Ajustează dimensiunea fontului pentru link-uri în header */
+  }
+
+  .hero {
+    height: 100vh; /* Ajustează înălțimea secțiunii hero pentru ecrane mai mici */
+  }
+
+  form {
+    width: 85%; /* Ajustează lățimea formularului pentru a se potrivi ecranului mic */
+  }
+
+  label {
+    font-size: 12px; /* Ajustează dimensiunea fontului pentru etichete în formular */
+  }
+}

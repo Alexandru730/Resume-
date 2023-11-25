@@ -169,3 +169,35 @@ body {
     width: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 20px 5%;
+  }
+
+  .home {
+    padding: 0 5%;
+  }
+
+  .home-content h1 {
+    font-size: 36px;
+  }
+
+  .home-content h3 {
+    font-size: 24px;
+  }
+
+  .home-content .description {
+    font-size: 14px;
+  }
+
+  .home-content .btn-box {
+    flex-direction: column;
+  }
+
+  .btn-box a {
+    font-size: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+  }
+}

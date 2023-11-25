@@ -80,15 +80,30 @@ footer a {
   margin: 5%;
 }
 
-@media only screen and (max-width: 574px) {
-  img {
-    width: 30px;
-    height: 30px;
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 0.5em 0; /* Ajustează padding-ul în antet pentru ecrane mici */
   }
+
+  .content {
+    margin: 20px; /* Ajustează marginea în jurul conținutului pentru ecrane mici */
+  }
+
+  .front-skills,
+  .software-skills,
+  .tools {
+    padding: 8vh; /* Ajustează padding-ul în secțiunile de skill-uri pentru ecrane mici */
+  }
+
   .tools-title,
   .front-title,
   .software-title {
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 16px; /* Ajustează dimensiunea fontului pentru titlurile secțiunilor de skill-uri */
+    margin-bottom: 15px; /* Ajustează spațiul între titluri și conținutul lor pentru ecrane mici */
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
   }
 }

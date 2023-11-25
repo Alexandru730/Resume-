@@ -174,3 +174,26 @@ footer a:hover {
   padding: 5px;
   border-radius: 8px;
 }
+
+@media only screen and (max-width: 768px) {
+  .content {
+    padding: 0 5%;
+  }
+
+  .p1,
+  .p2,
+  .p3 {
+    flex-direction: column;
+  }
+
+  .p1 img,
+  .p2 img,
+  .p3 img {
+    width: 100%;
+    padding: 2%; /* Face imaginile să se extindă pe întreaga lățime */
+  }
+
+  .downloadcv {
+    padding: 5%;
+  }
+}
