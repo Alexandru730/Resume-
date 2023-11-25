@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style_contact.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+    </header>
+    <div class="hero">
+      <form action="mailto:youraddr@domain.tld" method="GET">
+        <div class="input-group">
+          <input type="text" id="name" required />
+          <label for="name"
+            ><img src="contact/icons8-user-32.png" alt="contact" />Your
+            name</label
+          >
+        </div>
+        <div class="input-group">
+          <input type="text" id="telefon" pattern="[0-9]{10}" required />
+          <label for="number"
+            ><img src="/contact/icons8-phone-32.png" alt="" />Phone No.</label
+          >
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" required />
+          <label for="email"
+            ><img src="/contact/icons8-email-32.png" alt="" />Your email</label
+          >
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message"
+            ><img src="/contact/icons8-chat-bubble-32.png" alt="" />Tell me your
+            thoughts</label
+          >
+        </div>
+        <button type="submit" value="Send">
+          SUBMIT <img src="/contact/icons8-send-32.png" alt="" />
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(89, 89, 89);
+  color: #ededed;
+  margin: 0;
+  padding: 0;
+  /* Make sure the body takes the full height of the viewport */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.text {
+  text-align: center;
+}
+
+img,
+.info {
+  text-align: center;
+}
+
+.info {
+  margin: 7px;
+}
+
+.front-skills,
+.software-skills,
+.tools {
+  background-color: grey;
+  margin: 25px;
+  padding: 12vh;
+  display: flex;
+  flex-direction: row; /* Adjusted to a column layout */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  width: 80%;
+  gap: 25%;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+.tools-title,
+.front-title,
+.software-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ededed;
+  margin: 5%;
+}
+
+@media only screen and (max-width: 574px) {
+  img {
+    width: 30px;
+    height: 30px;
+  }
+  .tools-title,
+  .front-title,
+  .software-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}

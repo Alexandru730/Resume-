@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(89, 89, 89);
+  color: #ededed;
+  margin: 0;
+  padding: 0;
+  /* Make sure the body takes the full height of the viewport */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding: 2%;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ededed;
+}
+
+.content {
+  flex: 1;
+  padding-top: 10lvh;
+  padding: 0 10% 0 10%;
+}
+/* Adaugare de o clasa clear la sfarsitul content pentru a preveni problema cu float */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.p1 a,
+.p2 a,
+.p3 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 1px 3px 1px 3px;
+}
+
+.p1 img {
+  width: 32vw;
+}
+
+.p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.p2 img {
+  width: 32vw;
+}
+
+.p3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.p3 img {
+  width: 32vw;
+}
+
+.p1,
+.p2,
+.p3,
+footer {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p1 img,
+.p2 img,
+.p3 img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.p1 img:hover,
+.p2 img:hover,
+.p3 img:hover {
+  transform: scale(1.1);
+}
+
+.p1description,
+.p2description,
+.p3description {
+  transition: background-color 0.3s ease-in-out;
+  padding: 15px;
+}
+
+.p1description:hover,
+.p2description:hover,
+.p3description:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Fundal transparent la hover */
+}
+
+.p1,
+.p2,
+.p3 {
+  margin-bottom: 20px; /* sau orice valoare de margină dorită între secțiuni */
+}
+/* Adaugă un container pentru descriere și linkuri */
+.p1container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Spațiu între descriere și linkuri */
+}
+
+/* Ajustează spațiul între descriere și linkuri pentru toate secțiunile */
+.p2container {
+  gap: 10px;
+}
+.p3container {
+  gap: 15px;
+}
+.p1links,
+.p2links,
+.p3links {
+  margin-left: 2%;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 5%;
+  transition: color 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+footer a:hover {
+  color: #ffd700; /* sau orice altă culoare preferată */
+}
+
+.downloadcv {
+  text-align: center;
+  padding: 2%;
+}
+
+.downloadcv a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 8px;
+}
